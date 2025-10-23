@@ -12,7 +12,7 @@ function App() {
           <img src={DataImage.HeroImage} alt="Hero Image"className="w-10 rounded-md" loading="lazy"/>
           <q>Kode yang indah lahir dari ketekunan.👌</q>
         </div>
-        <h1 className="text-5xl/tight font-bold mb-6">Hi! Saya Alfhiandi Saputra</h1>
+        <h1 className="text-5xl/tight font-bold mb-6">Hi! Saya Alfi</h1>
         <p className="text-base/loose mb-6 opacity-50">Saya mempunyai ketertarikan dalam bidang Programming dan Networking, ketertarikan pada bidang IT sudah berlangsung lebih dari 4 Tahun, terkhusus pada bidang Networking. Namun saya selalu ingin belajar hal baru hingga saat ini saya berusaha mempelajari Front-End developer.
         </p>
         <div className="flex items-center sm:gap-4 gap-2">
