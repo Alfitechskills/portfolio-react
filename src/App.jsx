@@ -10,13 +10,13 @@ function App() {
       <div className="animate__animated animate__fadeInUp animate__delay-1s">
         <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
           <img src={DataImage.HeroImage} alt="Hero Image"className="w-10 rounded-md" loading="lazy"/>
-          <q>Kode yang indah lahir dari ketekunan.👌</q>
+          <q>Ngoding bukan tentang mengetik, tapi tentang berpikir✌️</q>
         </div>
-        <h1 className="text-5xl/tight font-bold mb-6">Hi! Saya Alfi</h1>
-        <p className="text-base/loose mb-6 opacity-50">Saya mempunyai ketertarikan dalam bidang Programming dan Networking, ketertarikan pada bidang IT sudah berlangsung lebih dari 4 Tahun, terkhusus pada bidang Networking. Namun saya selalu ingin belajar hal baru hingga saat ini saya berusaha mempelajari Front-End developer.
+        <h1 className="text-5xl/tight font-bold mb-6">Hi! Saya <span className="text-violet-700">Alfhiandi </span>Saputra</h1>
+        <p className="text-base/loose mb-6 opacity-50">Saya memiliki ketertarikan dalam dunia Information Technology, ketertarikan pada bidang IT ini sudah berlangsung lebih dari 3 Tahun, terkhusus pada bidang Networking. Saya suka mempelajari hal-hal baru, hingga saat ini saya sedang belajar Web Development.
         </p>
         <div className="flex items-center sm:gap-4 gap-2">
-          <a href="#"  className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Download CV<i className  ="ri-download-line ri-lg"></i></a>
+          <a href="https://drive.google.com/file/d/1Zm0NfSsEc9tChgGm6Zbos-jLyDZmnrZL/view?usp=sharing"  className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">Download CV<i className  ="ri-download-line ri-lg"></i></a>
           <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek<i className="ri-arrow-down-line ri-lg"></i></a>
         </div>
       </div>
@@ -28,7 +28,7 @@ function App() {
     <div className="tentang mt-32 py-10" id="tentang">
       <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
       <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden " />
-        <p className="text-base/loose mb-10">Hi, perkenalkan saya Alfhiandi Saputra, seorang Web Developer dan Junior Network Engineer, Saya percaya bahwa website dan networking harus berjalan beriringan, sehingga setiap proyek yang saya kembangkan tidak hanya terlihat menarik tetapi juga memberikan pengalaman pengguna yang optimal.</p>
+        <p className="text-base/loose mb-10">Hi, perkenalkan saya Alfhiandi Saputra, seorang Web Developer dan Junior Network Engineer, Saya membangun aplikasi web yang efisien dan memastikan infrastruktur jaringan yang mendasarinya beroperasi dengan optimal.</p>
         <div className="flex items-center justify-between">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy"/>
           <div className="flex items-center gap-6">
